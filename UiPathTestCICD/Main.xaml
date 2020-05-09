@@ -58,12 +58,10 @@
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.777777777778,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Hello World - Initial Draft 20&quot;]" />
     <Assign sap:VirtualizedContainerService.HintSize="333.777777777778,60.4444444444444" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[Test]</OutArgument>
+        <OutArgument x:TypeArguments="x:Object">[Test1]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">
-          <Literal x:TypeArguments="x:String" Value="" />
-        </InArgument>
+        <InArgument x:TypeArguments="x:Object">[""]</InArgument>
       </Assign.Value>
     </Assign>
   </Sequence>
